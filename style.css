@@ -1094,16 +1094,115 @@ body {
     align-self: stretch;
     flex-grow: 1;
     left: 102px;
-    margin-top: -64px;
+    margin-top: -154px;
 }
 
 .card-section4{
     position: absolute;
     left: 668px;
-    top: 2420px;
+    top: 2320px;
     margin-left: 80px;
 }
 
 .card-section4 h1{
     color: white;
 }
+
+/*FIM SEC 4*//*FIM SEC 4*/
+
+/*SECTION 5*//*SECTION 5*/
+
+
+.blog {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    width: 1100px;
+    height: 416px;
+    background: #F8F9FB;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    top: 3400px;
+    left: 112px;
+}
+
+.logo2 {
+    position: relative;
+    margin-left: 486px;
+    margin-bottom: 32px;
+}
+
+.blog h1{
+    width: 844px;
+    height: 114px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 128px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    isolation: isolate;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+    top: 290px;
+    left: 480px;
+}
+
+.nome{
+    width: 74px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    top: 380px;
+    left: 560px;
+}
+
+.empresa{
+    width: 96px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E; 
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+    top: 400px;
+    left: 560px;
+}
+
