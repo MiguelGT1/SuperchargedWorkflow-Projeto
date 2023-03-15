@@ -1,0 +1,1065 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden ;
+
+}
+
+/*NAVBAR-INICIO*//*NAVBAR-INICIO*/
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    isolation: isolate;
+    position: relative;
+    width: 1440px;
+    height: 742px;
+    background: #2B63D9;
+}
+
+.section-One{
+    position: absolute;
+    top: 29px;
+    left: 117px;
+}
+.nav-One img {
+    cursor: pointer;
+}
+
+.nav-One a{
+    position: relative;
+    text-decoration: none;
+    margin-left: 69px;
+    top: -7px;
+    width: 43px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+/*EFEITO BUTTON GET START*/
+.nav-One a:hover{
+    color: cadetblue;
+}
+.nav-One a:active{
+    opacity: 0.5;
+}
+
+/*FIM DOS EFEITOS*/
+
+.sign-up {
+    width: 55px;
+    height: 22px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 18px;
+    gap: 6px;
+    background: #437EF7;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    left: 150px;
+}
+/*EFEITO SIGN-UP*/
+.sign-up:hover{
+    background-color: red;
+}
+.sign-up:active{
+    opacity: 0.5;
+}
+/*FIM DOS EFEITOS*/
+
+.login{
+    width: 44px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    left: 190px;
+}
+/*EFEITO LOGIN*/
+.login:hover{
+    color: red;
+}
+.login:active{
+    opacity: 0.5;
+}
+/*FIM DOS EFEITOS*/
+
+
+/*NAVBAR-CONTEUDO*//*NAVBAR-CONTEUDO*/
+
+.navbar-conteudo {
+    display: inline-block;
+    position: absolute;
+    top: 164px;
+    left: 112px;
+    
+}
+
+.navbar-conteudo h1 {
+    width: 624px;
+    height: 120px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 24px;
+    /*ANIMAÇÃO*/
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.p1 {
+    width: 624px;
+    height: 78px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    color: #B1CCFB;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin-bottom: 44px;
+    /*ANIMAÇÃO*/
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.navbar-conteudo-button {
+    width: 85px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 18px;
+    gap: 6px;
+    width: 121px;
+    height: 46px;
+    background: #437EF7;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 80px;
+    /*ANIMAÇÃO*/
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+/*EFEITO BUTTON GET START*/
+.navbar-conteudo-button:hover{
+    background-color: red;
+}
+.navbar-conteudo-button:active{
+    opacity: 0.5;
+}
+
+/*FIM DOS EFEITOS*/
+
+.p2 {
+    width: 624px;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-bottom: 16px;
+}
+
+.redes-navOne{
+    width: 624px;
+    height: 28px;
+}
+
+.foto-conteudo-navbarOne{
+    position: relative;
+    top: -540px;
+    left: 687px;
+}
+
+
+/*2 SECTION*//*2 SECTION*/
+
+.container-section2 {
+    position: relative;
+    left: 300px;
+    top: 64px;
+    
+}
+
+.container-section2 h3{
+    width: 800px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 16px;
+}
+
+.container-section2 p {
+    width: 800px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.container-cards{
+    
+    display: inline-block;
+}
+
+/*CARD1*/
+
+.card-1 {
+    display: inline-block;
+
+    position: relative;
+    top: 208px;
+    left: 112px;
+}
+
+.card-1 h1{
+    width: 384px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 12px;
+}
+
+
+.card-1 p {
+    width: 324px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 16px;
+}
+
+.card-1 button {
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    background: transparent;
+}
+
+.card-1 button a{
+    text-decoration: none;
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card-1 button a img{
+    position: absolute;
+    bottom: 4px;
+    left: 91px;
+}
+
+/*CARD2*/
+
+.card-2 {
+    display: inline-block;
+    position: relative;
+    top: 208px;
+    left: 112px;
+    margin-left: 32px;
+}
+
+.card-2 h1{
+    width: 384px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 12px;
+}
+.card-2 img{
+    margin-bottom: 7px;
+}
+.card-2 p {
+    width: 324px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 16px;
+}
+
+.card-2 button {
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    background: transparent;
+}
+
+.card-2 button a{
+    text-decoration: none;
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card-2 button a img{
+    position: absolute;
+    bottom: -2px;
+    left: 91px;
+}
+
+/*CARD3*/
+
+.card-3 {
+    display: inline-block;
+    position: relative;
+    top: 208px;
+    left: 112px;
+    margin-left: 32px;
+}
+
+.card-3 h1{
+    width: 384px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 12px;
+}
+.card-3 img{
+    margin-bottom: 7px;
+}
+.card-3 p {
+    width: 324px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 16px;
+}
+
+.card-3 button {
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    background: transparent;
+}
+
+.card-3 button a{
+    text-decoration: none;
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card-3 button a img{
+    position: absolute;
+    bottom: -2px;
+    left: 91px;
+}
+
+/*CARD4*/
+
+.card-4 {
+    display: inline-block;
+    position: relative;
+    top: 208px;
+    left: 112px;
+    margin-top: 64px;
+    cursor: pointer;
+}
+.card-4 {
+    cursor: pointer;
+}
+
+.card-4 h1{
+    width: 384px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 12px;
+}
+.card-4 img{
+    margin-bottom: 7px;
+}
+.card-4 p {
+    width: 324px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 16px;
+}
+
+.card-4 button {
+    cursor: pointer;
+
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    background: transparent;
+}
+
+.card-4 button a{
+    cursor: pointer;
+    text-decoration: none;
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card-4 button a img{
+    position: absolute;
+    bottom: -2px;
+    left: 91px;
+}
+
+/*CARD5*/
+
+.card-5 {
+    display: inline-block;
+    position: relative;
+    top: 208px;
+    left: 112px;
+    margin-left: 32px;
+}
+
+.card-5 h1{
+    width: 384px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 12px;
+}
+.card-5 img{
+    margin-bottom: 7px;
+}
+.card-5 p {
+    width: 304px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 16px;
+}
+
+.card-5 button {
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    background: transparent;
+}
+
+.card-5 button a{
+    text-decoration: none;
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card-5 button a img{
+    position: absolute;
+    bottom: -2px;
+    left: 91px;
+}
+
+/*CARD6*/
+
+
+.card-6 {
+    display: inline-block;
+    position: relative;
+    top: 208px;
+    left: 112px;
+    margin-left: 32px;
+}
+
+.card-6 h1{
+    width: 384px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 12px;
+}
+.card-6 img{
+    margin-bottom: 7px;
+}
+.card-6 p {
+    width: 334px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 16px;
+}
+
+.card-6 button {
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    background: transparent;
+
+}
+
+.card-6 button a{
+    text-decoration: none;
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.card-6 button a img{
+    position: absolute;
+    bottom: -2px;
+    left: 91px;
+}
+
+/*FIM DOS CARDS!!!*/
+
+
+/*SECTION 3*/
+
+.container-section3 {
+    position: relative;
+    left: 280px;
+    top: 328px;
+}
+
+.container-section3 h3{
+    width: 800px;
+    height: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 16px;
+}
+
+.container-section3 p {
+    width: 820px;
+    height: 18px;;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+/*CARDS SECTION 3*/
+.card-section3{
+    position: relative;
+    top: 205px;
+
+}
+
+/*CARD1 SEC3*/
+
+.card1-section3 {
+    position: relative;
+    top: 208px;
+    left: 112px;
+}
+
+.icone-section3 {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    left: -58px;
+    top: 62px;
+    margin-right: 16px;
+    margin-left: 60px;
+}
+
+.card1-section3 h1{
+    width: 384px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 12px;
+    margin-left: 56px;
+    position: relative;
+    top: 14px;
+}
+
+
+.card1-section3 p {
+    width: 370px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 10px;
+    position: relative;
+    left: 56px;
+}
+
+.card1-section3 button {
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    background: transparent;
+    position: relative;
+    left: 56px;
+}
+
+.card1-section3 button a{
+    text-decoration: none;
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card1-section3 button a img{
+    position: absolute;
+    bottom: 4px;
+    left: 91px;
+}
+
+/*CARD2 SEC3*/
+
+.card2-section3 {
+    position: relative;
+    top: 208px;
+    left: 112px;
+    margin-top: 32px;
+}
+
+.icone-section3 {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    left: -58px;
+    top: 62px;
+    margin-right: 16px;
+    margin-left: 60px;
+}
+
+.card2-section3 h1{
+    width: 384px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 12px;
+    margin-left: 56px;
+    position: relative;
+    top: 14px;
+}
+
+
+.card2-section3 p {
+    width: 370px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 10px;
+    position: relative;
+    left: 56px;
+}
+
+.card2-section3 button {
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    background: transparent;
+    position: relative;
+    left: 56px;
+}
+
+.card2-section3 button a{
+    text-decoration: none;
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card2-section3 button a img{
+    position: absolute;
+    bottom: 4px;
+    left: 91px;
+}
+
+
+/*CARD3 SEC3*/
+
+.card3-section3 {
+    position: relative;
+    top: 208px;
+    left: 112px;
+    margin-top: 32px;
+}
+
+.icone-section3 {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    left: -58px;
+    top: 62px;
+    margin-right: 16px;
+    margin-left: 60px;
+}
+
+.card3-section3 h1{
+    width: 384px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    color: #272D37;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 12px;
+    margin-left: 56px;
+    position: relative;
+    top: 14px;
+}
+
+
+.card3-section3 p {
+    width: 370px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5F6D7E;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-bottom: 10px;
+    position: relative;
+    left: 56px;
+}
+
+.card3-section3 button {
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: none;
+    background: transparent;
+    position: relative;
+    left: 56px;
+}
+
+.card3-section3 button a{
+    text-decoration: none;
+    width: 82px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    color: #437EF7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card3-section3 button a img{
+    position: absolute;
+    bottom: 4px;
+    left: 91px;
+}
+
+/*IMAGEM SEC 3*/
+.moveis{
+    position: absolute;
+    width: 560px;
+    height: 560px;
+    left: 668px;
+    top: 261px;
+}
