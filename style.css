@@ -229,6 +229,9 @@ body {
     position: relative;
     left: 300px;
     top: 64px;
+      /*ANIMAÇÃO*/
+      animation: bounce; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 2s; /* don't forget to set a duration! */
     
 }
 
@@ -268,9 +271,16 @@ body {
 }
 
 .container-cards{
-    
     display: inline-block;
+      /*ANIMAÇÃO*/
+      animation: bounce; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 2s; /* don't forget to set a duration! */
 }
+/*EFEITO*/
+.container-cards button a:hover{
+    color: red;
+}
+
 
 /*CARD1*/
 
@@ -784,6 +794,11 @@ body {
     top: 205px;
 
 }
+ /*EFEITO*/
+.card-section3 button a:hover{
+    color: red;
+}
+
 
 /*CARD1 SEC3*/
 
@@ -1102,6 +1117,11 @@ body {
     left: 668px;
     top: 2320px;
     margin-left: 80px;
+}
+
+/*EFEITOS*/
+.card-section4 button a:hover{
+    color: red;
 }
 
 .card-section4 h1{
@@ -1883,6 +1903,10 @@ footer{
     top: 30px;
 }
 
+/*EFEITOS CONTEUDO2*/
+.conteudo2 a:hover{
+    color: red;
+}
 /*CONTEUDO 3*/
 
 .conteudo3 {
@@ -1925,6 +1949,11 @@ footer{
     position: relative;
     margin-top: -35px;
     top: 30px;
+}
+
+/*EFEITOS CONTEUDO3*/
+.conteudo3 a:hover{
+    color: red;
 }
 
 /*CONTEUDO 4*/
@@ -2084,3 +2113,4 @@ footer{
     cursor: pointer;
     margin-right: 24px;
 }
+
